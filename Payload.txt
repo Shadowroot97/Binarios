@@ -1,0 +1,4 @@
+function Get-SQLInstanceDomain 
+function Get-DomainSpn
+Invoke-SQLAuditDefaultLoginPw
+Get-SQLInstanceDomain | Invoke-SQLAuditDefaultLoginPw
